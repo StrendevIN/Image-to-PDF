@@ -1,4 +1,5 @@
 # Image-to-PDF
+
 Image to PDF Using Python
 
 ![""](https://github.com/Stren-Dev/Image-to-PDF/blob/main/Image.png?raw=true)
@@ -21,6 +22,14 @@ python Script.py
 
 PDF Created Successfully 
  Subscribe to Strendev  https://www.youtube.com/@Strendev 
+
+# 4) IMP Points to Remember 
+
+Use always Image source containing with .png , .jpg etc.
+&
+img = "C:\\Users\\Strendev\\Strendev.png" # Image Path(Copy full image path) (Directory Path use \\ in case of error while useing \ )// 
+
+pdf = "C:\\Users\\Strendev\\Strendev.pdf" # PDF Path (Directory Path use \\ in case of error while useing \ ) (In  case of Strendev.pdf you can give any name ad username.pdf)
 
 
 
