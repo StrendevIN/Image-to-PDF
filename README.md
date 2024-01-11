@@ -6,9 +6,9 @@ Image to PDF Using Python
 Installtion 
 
 # 1) Run
- \`\`\`shell
-pip install img2pdf
-\`\`\`
+![""](
+pip install img2pdf )
+
 
 Use this Command on Command Line or terminal if you are using Juypter Notebook
 
