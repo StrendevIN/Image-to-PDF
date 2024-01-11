@@ -20,7 +20,7 @@ python Script.py
 # 3) Output Will
 
 PDF Created Successfully 
-# Subscribe to Strendev # https://www.youtube.com/@Strendev # 
+ Subscribe to Strendev  https://www.youtube.com/@Strendev 
 
 
 
