@@ -1,0 +1,80 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyPyHeaBFIRcZwoHZyesZp8p",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HarshShinde0/.github/blob/main/Image_to_PDF.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Image to PDF Using Python **"
+      ],
+      "metadata": {
+        "id": "hSOoXCpVSiAw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install img2pdf"
+      ],
+      "metadata": {
+        "id": "JK1UXEa6E4EN"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import img2pdf\n",
+        "from PIL import Image\n",
+        "\n",
+        "#Syanx\n",
+        "\n",
+        "img = \"C:\\\\Users\\\\Strendev\\\\Strendev.png\" # Image Path(Copy full image path) (Directory Path use \\\\ in case of error while useing \\ )//\n",
+        "\n",
+        "pdf = \"C:\\\\Users\\\\Strendev\\\\Strendev.pdf\" # PDF Path (Directory Path use \\\\ in case of error while useing \\ ) (In  case of Strendev.pdf you can give any name ad username.pdf)\n",
+        "\n",
+        "\n",
+        "image  = Image.open(img)\n",
+        "\n",
+        "pdf_converted = img2pdf.convert(image.filename)\n",
+        "\n",
+        "with open(pdf, \"wb\") as file:\n",
+        "    file.write(pdf_converted)\n",
+        "\n",
+        "print(\"PDF Created Successfully \")\n",
+        "print(\"# Subscribe to Strendev # https://www.youtube.com/@Strendev # \")"
+      ],
+      "metadata": {
+        "id": "zIQXlwxaaGx2"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
