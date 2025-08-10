@@ -1,37 +1,58 @@
-# Image to PDF Using Python
+#  Image to PDF Using Python
 
-Image to PDF Using Python
+Convert images (PNG, JPG, etc.) to PDF easily with Python!
 
-![""](https://github.com/Stren-Dev/Image-to-PDF/blob/main/Image.png?raw=true)
+![Tool Screenshot](https://github.com/Stren-Dev/Image-to-PDF/blob/main/Image.png?raw=true)
 
-# Installtion 
+---
 
-# 1) Install   
+##  Installation
 
-pip install img2pdf   --- (IMP Command)
+1. **Install the required package:**
 
-Use this Command on Command Line or terminal if you are using Juypter Notebook
+   ```sh
+   pip install img2pdf
+   ```
+   > Run this command in your terminal or command line (also works in Jupyter Notebook).
 
-# 2) Run
+2. **Run the script:**
 
-After Installing Run Script.py using 
+   ```sh
+   python Script.py
+   ```
 
-python Script.py
+---
 
-# 3) Output Will
+##  Output
 
-PDF Created Successfully 
- Subscribe to Strendev  https://www.youtube.com/@Strendev 
+- **PDF Created Successfully!**
 
-# 4) IMP Points to Remember 
+You’ll see your converted PDF in your specified directory.
 
-Use always Image source containing with .png , .jpg etc.
-&
-img = "C:\\Users\\Strendev\\Strendev.png" # Image Path(Copy full image path) (Directory Path use \\ in case of error while useing \ )// 
+---
 
-pdf = "C:\\Users\\Strendev\\Strendev.pdf" # PDF Path (Directory Path use \\ in case of error while useing \ ) (In  case of Strendev.pdf you can give any name ad username.pdf)
+##  Important Points
 
+- Always use image files with extensions like `.png`, `.jpg`, etc.
+- Specify the full path for your image and PDF files:
+  - Example for image path:
+    ```python
+    img = "C:\\Users\\Strendev\\Strendev.png"
+    ```
+  - Example for PDF output path:
+    ```python
+    pdf = "C:\\Users\\Strendev\\Strendev.pdf"
+    ```
+  - Use double backslashes (`\\`) in Windows paths to avoid errors.
 
+- You can name your PDF file anything you like (e.g., `username.pdf`).
 
+---
 
+## 📺 Subscribe for More
 
+[Strendev YouTube Channel](https://www.youtube.com/@Strendev)
+
+---
+
+Feel free to update or add more details as needed!
